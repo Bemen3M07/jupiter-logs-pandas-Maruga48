@@ -1,0 +1,11 @@
+Timestamp,Logger,Level,Message
+2024-11-22 17:39:35,827,INFO,Registre en format CSV cada dos segons
+2024-11-22 17:39:35,827,csvlogger,INFO,Registre en format CSV cada dos segons
+2024-11-22 17:39:37,829,INFO,Registre en format CSV cada dos segons
+2024-11-22 17:39:37,829,csvlogger,INFO,Registre en format CSV cada dos segons
+2024-11-22 17:40:50,853,INFO,Registre en format CSV cada dos segons
+2024-11-22 17:40:50,853,csvlogger,INFO,Registre en format CSV cada dos segons
+2024-11-22 17:40:52,856,INFO,Registre en format CSV cada dos segons
+2024-11-22 17:40:52,856,csvlogger,INFO,Registre en format CSV cada dos segons
+2024-11-22 18:18:46,229,INFO,Registre en format CSV cada dos segons
+2024-11-22 18:18:48,231,INFO,Registre en format CSV cada dos segons
