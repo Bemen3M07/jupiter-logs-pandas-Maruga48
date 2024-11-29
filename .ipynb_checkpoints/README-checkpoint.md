@@ -1,5 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ULiw8LbN)
-# Empty
+# PP4
 
 2- Que creieu que és millor mostrar els logs per exemple a la terminal durant
 l'execució del programa o bolcar-los en un fitxer de text? Afegiu al readme.md
@@ -50,3 +50,24 @@ següents maneres de fer logs: (inclou-la al readme.md)
 | **Logs a la consola i fitxer simultàniament** | ```python                                                                                          | - Proporciona la visibilitat en temps real (pantalla) i també conserva els logs per a anàlisis posteriors (fitxer). | - Pot ser redundat en alguns casos si els logs es mostren tant a la pantalla com al fitxer.         |
 |                                        | logging.basicConfig(filename='app.log', level=logging.DEBUG)                                       | - Ideal per a desenvolupament i entorns de producció on es volen logs visibles i persistents.       | - Pot generar molts logs, augmentant l'ús d'espai d'emmagatzematge si no es gestiona adequadament.  |
 |                                        | logging.debug('Missatge a la consola i fitxer')                                                   | - Flexibilitat per configurar diferents nivells de logs per a cada destinació (pantalla i fitxer). | - Necessita més configuració per gestionar diversos *handlers* adequadament.                        |
+
+
+4- Cerca llibreries de logs en altres llenguatjes (al menys 2, i identifica cóm resolen les següents característiques típiques d’un sistema de logging. Omple la següent taula, i inclou-la al read-me del repositori:
+
+
+### Taula de comparació de llibreries de logging en diferents llenguatges
+
+| **Característica**                 | **Java (Log4j)**                                                                           | **JavaScript (Winston)**                                                                 |
+|------------------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| **Nivells de logging**             | Log4j suporta múltiples nivells de logging, com ara DEBUG, INFO, WARN, ERROR, FATAL.      | Winston també suporta diversos nivells com DEBUG, INFO, WARN, ERROR.                     |
+| **Especificació del nivell de logs** | El nivell es pot configurar tant a nivell de codi com a través del fitxer de configuració (XML o properties). | El nivell es configura per cada `logger` i es pot establir dinàmicament al moment d'executar l'aplicació. |
+| **Destinació dels logs**           | Els logs es poden enviar a fitxers, bases de dades, serveis de xarxa, o a la consola.      | Els logs es poden enviar a múltiples destinacions (fitxers, base de dades, consola, HTTP, etc.). |
+| **Rotació dels logs**              | Log4j ofereix rotació de logs basada en el temps o en la mida, amb configuració en fitxers. | Winston permet la rotació dels logs mitjançant configuracions personalitzades com a mòdul `winston-daily-rotate-file`. |
+| **Format personalitzat**           | El format dels logs es pot personalitzar a través de patrons de configuració.             | Winston ofereix formats personalitzats mitjançant el mòdul `format` (com `json` o `simple` format). |
+| **Suport per a múltiples loggers** | Suporta múltiples loggers amb configuracions independents per a cada un.                  | Permet crear múltiples loggers amb diferents configuracions, com ara transports i formats per a cada un. |
+| **Persistència de logs**           | Log4j pot escriure els logs en fitxers locals o remots, bases de dades o sistemes de xarxa. | Winston permet escriure els logs a fitxers, bases de dades, o fins i tot a serveis de núvol com AWS. |
+| **Interoperabilitat**              | Log4j s'integra bé amb altres tecnologies Java, incloent frameworks com Spring o Hibernate. | Winston s'integra fàcilment amb altres llibreries i aplicacions en Node.js.              |
+| **Suport per a logs estructurats**  | Els logs poden ser estructurats (JSON) utilitzant l'add-on `log4j2` per a l'output en JSON. | Winston suporta logs estructurats natius en JSON per defecte.                             |
+
+
+
