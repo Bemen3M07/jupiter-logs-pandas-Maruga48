@@ -70,4 +70,50 @@ següents maneres de fer logs: (inclou-la al readme.md)
 | **Suport per a logs estructurats**  | Els logs poden ser estructurats (JSON) utilitzant l'add-on `log4j2` per a l'output en JSON. | Winston suporta logs estructurats natius en JSON per defecte.                             |
 
 
+Exercici 3
+Mitjançant les eines proposades a continuació, voldríem elaborar una petita aplicació que permetés a un treballador de forma senzilla introduir mitjançant un fitxer json, txt csv o similar introduir unes dades que escollim i li elaborem una sèrie de gràfiques.
 
+Abans d’això, caldrà informar-se sobre les següents eines, alguna de les quals potser ja coneixeu.
+Pandas
+Jupyter Notebook
+reportlab
+La idea d'aquest punt és detallar,
+La funcionalitat de cada una de les eines presentades.
+
+Caldrà posar captures de les proves que heu fet i argumentar quines eines i llibreries utilitzareu finalment.
+
+
+Eines Proposades
+1. Pandas
+Funcionalitat:
+
+Pandas és una biblioteca Python per a la manipulació i anàlisi de dades. És especialment útil per treballar amb dades tabulars (com ara fitxers CSV, Excel o bases de dades).
+Permet carregar, netejar, transformar i analitzar dades de manera eficient.
+Ofereix estructures com DataFrame (taula bidimensional) i Series (array unidimensional) per gestionar dades.
+
+Exemple:
+
+![Captura de Pandas](exemple_pandas.png)
+
+
+
+2. Jupyter Notebook
+Funcionalitat:
+
+Jupyter Notebook és un entorn interactiu que permet escriure i executar codi Python en cel·les.
+Ideal per a visualitzar dades, generar gràfics i documentar anàlisis en un mateix lloc.
+Compatible amb nombroses llibreries, com Pandas, Matplotlib o Seaborn, per a visualitzacions interactives.
+Prova d'exemple:
+
+![Captura de Jupyter Notebook](exemple_jupn.png)
+
+3. ReportLab
+Funcionalitat:
+
+ReportLab és una llibreria Python per generar documents PDF.
+Permet crear informes amb text, gràfics i taules de manera programàtica.
+Ideal per exportar resultats o informes a PDF.
+Prova d'exemple:
+
+![Captura de Reportlab](exemple_reporlab.png)
+![Captura de Reportlab PDF](exemple_reporlab_pdf.png)
