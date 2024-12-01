@@ -115,5 +115,5 @@ Permet crear informes amb text, gràfics i taules de manera programàtica.
 Ideal per exportar resultats o informes a PDF.
 Prova d'exemple:
 
-![Captura de Reportlab](exemple_reporlab.png)
-![Captura de Reportlab PDF](exemple_reporlab_pdf.png)
+![Captura de Reportlab](exemple_reportlab.png)
+![Captura de Reportlab PDF](exemple_reportlab_pdf.png)
