@@ -105,7 +105,7 @@ Ideal per a visualitzar dades, generar gràfics i documentar anàlisis en un mat
 Compatible amb nombroses llibreries, com Pandas, Matplotlib o Seaborn, per a visualitzacions interactives.
 Prova d'exemple:
 
-![Captura de Jupyter Notebook](exemple_jupn.png)
+![Captura de Jupyter Notebook](../exemple_jupn.png)
 
 3. ReportLab
 Funcionalitat:
